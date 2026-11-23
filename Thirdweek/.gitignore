@@ -1,0 +1,14 @@
+
+# Dependencies
+node_modules/
+ 
+# Environment variables
+.env
+ 
+# Logs
+*.log
+ 
+# Temporary files
+*.tmp
+git rm -r --cached node_modules
+ 
