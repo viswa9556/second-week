@@ -16,6 +16,10 @@ app.listen(PORT,()=>{
     console.log("port is listening");
 })
 
+app.get("/api/students",(req,res)=>{
+  return res.send(students);
+})
+
 app.get("/api/students/:id",(req,res)=>{
     // const id = req.param.id;
     console.log(req.params);

@@ -2,11 +2,11 @@
   "name": "bothpq",
   "version": "1.0.0",
   "description": "",
-  "main": "studentsGet.mjs",
+  "main": "studentsPost.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start-dev": "nodemon ./studentsGet.mjs",
-    "start": "node ./studentsGet.mjs"
+    "start-dev": "nodemon ./studentsPost.mjs",
+    "start": "node ./studentsPost.mjs"
   },
   "keywords": [],
   "author": "",
